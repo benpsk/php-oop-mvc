@@ -1,0 +1,19 @@
+{
+    "name": "ben/php-oop-mvc",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ben Gunn",
+            "email": "bengunn.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6",
+        "ext-pdo": "*"
+    }
+}
