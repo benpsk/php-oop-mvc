@@ -1,10 +1,10 @@
 <?php
 
 return [
-  'database' => [
-    'host' => '127.0.0.1',
-    'dbname' => 'my_crud_app',
-    'user' => 'root',
-    'password' => 'root',
-  ]
+    'database' => [
+        'host' => $_ENV['DB_HOST'],
+        'dbname' => $_ENV['DB_NAME'],
+        'user' => $_ENV['DB_USER'],
+        'password' => $_ENV['DB_PASSWORD'],
+    ]
 ];
